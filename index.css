@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "webpixel";
+  src: url("fonts/webpixel_bitmap/webpixelbitmap_bold.otf");
+}
+
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: bold;
+  src: url("fonts/Gmarket/GmarketSansBold.otf");
+}
+
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  src: url("fonts/Gmarket/GmarketSansMedium.otf");
+}
+
+@font-face {
+  font-display: swap;
+    font-family: 'Cafe24Ohsquare';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://static.spartacodingclub.kr/static/fonts/Cafe24Ohsquare/Cafe24Ohsquare.woff2') format("woff2"),
+    url('https://static.spartacodingclub.kr/static/fonts/Cafe24Ohsquare/Cafe24Ohsquare.woff') format("woff"),
+    url('https://static.spartacodingclub.kr/static/fonts/Cafe24Ohsquare/Cafe24Ohsquare.ttf');
+  }
+
+@font-face {
+  font-family: 'DungGeunMo';
+  font-weight: 500;
+  font-style: normal;
+  src: url('fonts/DungGuenMo/DungGeunMo.otf');
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
